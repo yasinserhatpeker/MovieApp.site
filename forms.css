@@ -25,7 +25,7 @@
     margin-top: 15px;
     
 }
-.signup-form input:not([type="checkbox"])
+.signup-form input:not([type="checkbox"]),
 .signup-form select{
     border: 1px solid #ccc;
     padding: 10px 15px;
@@ -35,5 +35,22 @@
     outline: none;
     background-color: blue;
     border: 1px solid greenyellow;
-    
+
 }
+.signup-form input[type="checkbox"]{
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #2e4c6d;
+    vertical-align: bottom;
+
+}
+.signup-form input[type="checkbox"]:hover{
+background-color: gray;
+
+}
+.signup-form input[type="checkbox"]:checked{
+background-color: gray;
+}
+
+
