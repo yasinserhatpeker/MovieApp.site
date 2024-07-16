@@ -8,7 +8,9 @@
     margin: auto;
 }
 .signup-form label,
-.signup-form input,
+.signup-form input:not([type="checkbox"]),
 .signup-form select{
     display: block;
+    width: 100%;
+    margin-top: 10px;
 }
