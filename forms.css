@@ -3,3 +3,12 @@
      color: #2e4c6d;
      text-align: center;
 }
+.signup-form{
+    width: 500px;
+    margin: auto;
+}
+.signup-form label,
+.signup-form input,
+.signup-form select{
+    display: block;
+}
